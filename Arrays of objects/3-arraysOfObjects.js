@@ -65,10 +65,8 @@ let restaurantFinderApplication = {
                 if (elem.totalSeats - elem.numberOfCustomers >= numberOfPeople) {
                     return elem.totalSeats;
                 }
-            }).map(elem => {
-                return elem.name;
-            })
-            // let nameOfRest = [];
+            }).map(elem => elem.name)
+            // et nameOfRest = [];
             // for (let i = 0; i < restaurants.length; i++) {
             //     if (restaurants[i].totalSeats - restaurants[i].numberOfCustomers >= numberOfPeople) {
             //         nameOfRest.push(restaurants[i].name);
